@@ -1,0 +1,26 @@
+{
+  "name": "wisDOM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelMCoates/wisDOM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelMCoates/wisDOM/issues"
+  },
+  "homepage": "https://github.com/MichaelMCoates/wisDOM#readme",
+  "dependencies": {
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
