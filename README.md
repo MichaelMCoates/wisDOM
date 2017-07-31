@@ -51,7 +51,7 @@ To use wisDOM, simply download this library, copy it into your project, and impo
 
 [Making AJAX Requests: `$wis.ajax`](#making-ajax-requests-wisajax)  
 
-[Helper Functions](#helper)  
+[Helper Functions](#helper-functions)  
 * [`each`](#each)  
 * [`first`](#first)  
 * [`$wis.extend`](#wisextend)  
@@ -301,7 +301,7 @@ $wis.ajax({
 
 ## Helper Functions
 
-The following are helper functions that wisDOM provides
+The following are helper functions that wisDOM provides:
 
 #### `each`
 
@@ -340,3 +340,9 @@ $wis.extend(object1, object2, object3);
 // 'text': 'Gibberish',
 // 'body': 'Object 2 Body' }
 ```
+
+## Live Demo
+
+Check out [KeyDown][keydown], a music-making animation application, to see wisDOM in action!
+
+[keydown]: http://www.michaelmcoates.com/KeyDown/
