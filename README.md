@@ -20,15 +20,15 @@ To use wisDOM, simply download this library, copy it into your project, and impo
 
 ## API Documentation
 
-[The Core Function: `$wis`](#thecore)  
+[The Core Function: `$wis`](#the-core-function-wis)  
 
-[Traversing the DOM](#traversing)  
+[Traversing the DOM](#traversing-the-dom)  
   * [`findDescendants`](#findDescendants)  
   * [`findChildren`](#findChildren)  
   * [`findParent`](#findParent)
 
-[Manipulating the DOM](#manipulating)  
-[Attribute/HTML/Class Setters and Getters](#attribute)  
+[Manipulating the DOM](#manipulating-the-dom)  
+[Attribute/HTML/Class Setters and Getters](#attributehtmlclass-setters-and-getters)  
   * [`getFirstInnerHTML`](#getFirstInnerHTML)  
   * [`deleteInnerHTML`](#deleteInnerHTML)  
   * [`setInnerHTML`](#setInnerHTML)  
@@ -38,18 +38,18 @@ To use wisDOM, simply download this library, copy it into your project, and impo
   * [`addAttrs`](#addAttrs)  
   * [`addClass`](#addClass)  
   * [`removeClass`](#removeClass)  
-[Full DOM Manipulators](#full)  
+[Full DOM Manipulators](#full-dom-manipulators)  
   * [`appendHTML`](#appendHTML)  
   * [`appendString`](#appendString)  
   * [`appendNodes`](#appendNodes)  
   * [`removeFromDOM`](#removeFromDOM)  
 
-[Adding and Removing Event Listeners](#adding)  
+[Adding and Removing Event Listeners](#adding-and-removing-event-listeners)  
   * [`on`](#on)  
   * [`keydown`](#keydown)  
   * [`off`](#off)  
 
-[Making AJAX Requests: `$wis.ajax`](#making)  
+[Making AJAX Requests: `$wis.ajax`](#making-ajax-requests-wisajax)  
 
 [Helper Functions](#helper)  
 * [`each`](#each)  
@@ -243,7 +243,7 @@ $wisSelection.appendNodes($otherWisSelection);
 Removes each element in the `DOMNodeCollection` from the DOM completely. Equivalent to jQuery's `remove()` function.
 
 
-## Event Listeners
+## Adding and Removing Event Listeners
 
 When a user makes a selection with `$wis`, or passes an `HTMLElement` to `$wis`, that function returns a `DOMNodeCollection`. The user can now use the following functions add and remove event listeners from the elements contained within the `DOMNodeCollection`.
 
