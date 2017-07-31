@@ -4,7 +4,7 @@ module.exports = {
   entry: './lib/main.js',
   output: {
     path: path.resolve(__dirname),
-    filename: './lib/wisDOM.js'
+    filename: './wisDOM.js'
   },
   resolve: {
     extensions: ['.js', '.jsx', '*']
