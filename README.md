@@ -20,7 +20,7 @@ To use wisDOM, simply download this library, copy it into your project, and impo
 
 ## API Documentation
 
-[The Core Function: `$wis`](#the core)  
+[The Core Function: `$wis`](#thecore)  
 
 [Traversing the DOM](#traversing)  
   * [`findDescendants`](#findDescendants)  
