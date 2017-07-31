@@ -1,10 +1,10 @@
 # wisDOM
 
-wisDOM is a lightweight JavaScript library that simplifies DOM traversal, DOM manipulation, event handling, and AJAX. It is inspired by jQuery, but redesigned to be more user-friendly, semantic, and readable. wisDOM allows users to:
+wisDOM is a lightweight JavaScript library that simplifies DOM traversal, DOM manipulation, event handling, and HTTP requests. It is inspired by jQuery, but redesigned to be more user-friendly, semantic, and readable. wisDOM allows users to:
 * Select individual DOM elements or groups of DOM elements
 * Access children and parents of DOM elements
 * Create, edit, and delete DOM elements
-* Store and fire off functions until the DOM is fully loaded
+* Store and fire off functions once the DOM is fully loaded
 * Fire off HTTP requests
 
 ## Installing
@@ -20,7 +20,7 @@ To use wisDOM, simply download this library, copy it into your project, and impo
 
 ## API Documentation
 
-[The Core Function: `$wis`](#wis)  
+[The Core Function: `$wis`](#the core)  
 
 [Traversing the DOM](#traversing)  
   * [`findDescendants`](#findDescendants)  
