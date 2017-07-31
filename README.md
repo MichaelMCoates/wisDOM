@@ -7,6 +7,10 @@ wisDOM is a lightweight JavaScript library that simplifies DOM traversal, DOM ma
 * Store and fire off functions once the DOM is fully loaded
 * Fire off HTTP requests
 
+Check out [KeyDown][keydown], a music-making animation application, to see wisDOM in action!
+
+[keydown]: http://www.michaelmcoates.com/KeyDown/
+
 ## Installing
 
 To use wisDOM, simply download this library, copy it into your project, and import the `wisDOM.js` file using a script tag in the head of your root html file. Make sure it points to the correct path!
@@ -340,9 +344,3 @@ $wis.extend(object1, object2, object3);
 // 'text': 'Gibberish',
 // 'body': 'Object 2 Body' }
 ```
-
-## Live Demo
-
-Check out [KeyDown][keydown], a music-making animation application, to see wisDOM in action!
-
-[keydown]: http://www.michaelmcoates.com/KeyDown/
